@@ -1,0 +1,25 @@
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px 150px 150px 150px ;
+    
+
+}
+
+.adressOpening ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.adressOpening li{
+    list-style: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+input[type="submit"]{
+    width: 100px;
+}

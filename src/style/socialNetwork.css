@@ -1,0 +1,13 @@
+.socialNetwork{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    width: 300px;
+    height: 50px;
+}
+
+.socialNetwork li{
+    list-style: none;
+    font-size: 3rem;
+    color: black;
+}
