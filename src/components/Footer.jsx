@@ -1,4 +1,5 @@
 import React from 'react';
+import SocialNetwork from './SocialNetwork';
 
 
 const Footer = () => {
@@ -41,7 +42,7 @@ const Footer = () => {
                 <input type="submit" value= "envoyer" />
             </form>
             </div>
-         
+          <SocialNetwork/>
         </div>
     );
 };
