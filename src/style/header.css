@@ -1,0 +1,21 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-around;
+    margin-left: 50%;
+    height: 60PX;
+    align-items: center;
+    font-size: 1.2rem;
+    
+}
+
+.navigation li {
+    list-style: none; 
+    color: black; 
+}
+
+.navigation a {
+    text-decoration: none;
+
+}

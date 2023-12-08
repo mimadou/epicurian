@@ -1,12 +1,37 @@
-import React from 'react';
+
 import SocialNetwork from './SocialNetwork';
+import Logo from "../assets/logo_epicurium.png"
+
 
 
 const Footer = () => {
+    
+
+        const sendMail = (e)=>{
+
+            e.preventDefault() ;
+            document.querySelector(".form").reset();
+            const formMess = document.querySelector(".formMessage");
+            formMess.innerHTML = "<p> vous allez recevoir toutes les actualités par mail</p>";
+             
+            setTimeout(() => {
+                formMess.innerHTML = "";
+              }, 2000);
+            
+        }
+    
+    
     return (
-        <div className='footer' >
+        
+        <div className='footerPage'>
+
+          <div className='footer' > 
             <div className='contact'>
-            <h2> Logo</h2>
+            <div className='imgLogod'>
+                <img src={Logo} alt="" className='imgLogo' />
+            </div>
+            
+
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio maiores veniam cumque, autem deserunt laudantium nostrum. Nam accusamus voluptate itaque ducimus quae porro. Quod eveniet mollitia ullam cum repellat molestiae!</p>  
             </div>
 
@@ -15,7 +40,8 @@ const Footer = () => {
              <ul>
                 <li>10 Cours Louis Lumière, 94300, Vincennes</li>
                 <li> 01 49 57 59 59</li>
-                <li>contact@Epicurian_Delight.com</li>
+                <li>contact@epicurian_delight.com</li>
+               
              </ul>
             </div>
 
@@ -29,20 +55,25 @@ const Footer = () => {
              </ul>
             </div>
 
-            <div>
+            <div className='newsletter'>
             <h2> Newsletter</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio</p>
-            <form action="">
+            <form action="" onSubmit={sendMail} className='form'>
                
                 <label htmlFor="">Email</label>
-                <input type="email" />
-               
+                <input type="email" required />
 
-                
                 <input type="submit" value= "envoyer" />
             </form>
+            <div className="formMessage"> </div>
+           
             </div>
-          <SocialNetwork/>
+            </div>
+            <div className=''>
+            <SocialNetwork/>
+            </div>
+             
+
         </div>
     );
 };
