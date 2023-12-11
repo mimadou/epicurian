@@ -1,9 +1,22 @@
+.header_{
+    background: center/cover;
+    height: 100vh;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+}
+.navbar_logo{
+    padding: 30px;
+}
+
 .navigation {
     display: flex;
     flex-direction: row;
-    width: 50%;
+    width: 100%;
     justify-content: space-around;
-    margin-left: 50%;
+    
     height: 60PX;
     align-items: center;
     font-size: 1.2rem;
@@ -14,8 +27,70 @@
     list-style: none; 
     color: black; 
 }
-
+.navigation li:hover{
+    color: #DB9423;
+}
 .navigation a {
     text-decoration: none;
 
 }
+
+.reservation{
+    padding: 8px;
+    border-radius: 10px;
+}
+
+
+
+
+.titleHeader{
+    width: 40%;
+    margin: auto;
+    padding-top: 15%;
+}
+
+.titleHeader h1{
+    font-size: 5rem;
+    color: #DB9423;
+    text-align: center;
+    
+}
+.titleHeader h3, .titleHeader p{
+    text-align: center;
+    font-size: 1.8rem;
+    color: aliceblue;
+}
+.titleHeader p{
+    margin-top: 30px;
+}
+
+.headerHome{
+    position: relative;
+}
+
+.buttonHeader{
+    display: flex;
+    gap: 10PX;
+  
+    width: 300PX;
+    position: relative;
+    margin: auto;
+    bottom: 200PX;
+}
+.buttonHeader button{
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10PX;
+    border-radius: 10PX;
+    width: 120PX;
+    font-size: 1.1rem;
+    border: 1px solid #DB9423;
+    color: white;
+}
+
+
+.buttonHeader button:hover{
+    cursor: pointer;
+    background-color: #DB9423;
+    transition: 0.7s;
+}
+

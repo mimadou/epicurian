@@ -4,6 +4,10 @@ import { NavLink } from 'react-router-dom';
 const Navigation = () => {
     return (
         <div>
+            <nav className='navbar'>
+                <div className='navbar_logo'>
+                
+                </div> 
             <ul className='navigation'>
                 <NavLink to="/">
                     <li> Accueil</li>
@@ -15,9 +19,10 @@ const Navigation = () => {
                     <li>Contact </li>
                 </NavLink>
                 <NavLink to="/reservation">
-                    <li> Réservation</li>
+                    <li className='reservation' style={{color:'black', background:"#DB9423"}}> Réservation</li>
                 </NavLink>
             </ul>
+            </nav>
         </div>
     );
 };

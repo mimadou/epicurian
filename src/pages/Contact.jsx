@@ -1,11 +1,14 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import Header from '../components/Header';
+import ImgContact from '../assets/image_header_contact.jpg'
 
 const Contact = () => {
     return (
         <div>
-           <Navigation/> 
+           <Header image={ImgContact} 
+           titlePage= "Contactez Nous" 
+           descriptionPage="Reservation et informations" />
             le contact
            <Footer/> 
         </div>

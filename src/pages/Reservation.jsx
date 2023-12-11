@@ -1,12 +1,15 @@
 import React from 'react';
 import Footer from '../components/Footer';
-import Navigation from '../components/Navigation';
+import Header from '../components/Header';
+import ImgReservation from '../assets/image_header_reservation.jpg'
 
 const Reservation = () => {
     return (
         <div>
-            <Navigation/>
-            reservation
+            <Header image={ImgReservation} 
+            titlePage="Reservation"
+            descriptionPage="Retrouvez dans votre restaurant de luxe"/>
+             reservation
             <Footer/>
         </div>
     );

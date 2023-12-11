@@ -1,11 +1,15 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
+import Header from '../components/Header';
+import ImgMenu from '../assets/image_header_menu.jpg'
 
 const Menu = () => {
     return (
         <div>
-           <Navigation/> 
+           <Header image={ImgMenu} 
+           titlePage="Menu"  
+           descriptionPage="Tous nos plats sont frais et préparés sur commande"/>
+           
             le menu 
            <Footer/>
         </div>
