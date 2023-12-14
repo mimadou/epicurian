@@ -1,6 +1,7 @@
 .header_{
     background: center/cover;
     height: 100vh;
+    
 }
 .navbar{
     display: grid;
@@ -35,10 +36,19 @@
 
 }
 
+
 .reservation{
     padding: 8px;
     border-radius: 10px;
+    color:'black';
+    background-color: #DB9423;
+    font-size: 1.2rem;
+    border: none;
 }
+.navigation .reservation:hover{
+ color: black;
+}
+
 
 
 
@@ -57,7 +67,7 @@
 }
 .titleHeader h3, .titleHeader p{
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     color: aliceblue;
 }
 .titleHeader p{
@@ -66,16 +76,18 @@
 
 .headerHome{
     position: relative;
+    height: 100vh;
 }
 
 .buttonHeader{
     display: flex;
     gap: 10PX;
-  
+    
     width: 300PX;
     position: relative;
     margin: auto;
-    bottom: 200PX;
+    bottom: 15%;
+    
 }
 .buttonHeader button{
     background-color: rgba(0, 0, 0, 0);
@@ -83,7 +95,7 @@
     border-radius: 10PX;
     width: 120PX;
     font-size: 1.1rem;
-    border: 1px solid #DB9423;
+    border: 2px solid #DB9423;
     color: white;
 }
 
@@ -93,4 +105,10 @@
     background-color: #DB9423;
     transition: 0.7s;
 }
+.presentation{
+    height: 800px;
+    background-color: #F2F2F2;
+    
+}
+
 

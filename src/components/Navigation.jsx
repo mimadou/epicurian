@@ -19,7 +19,7 @@ const Navigation = () => {
                     <li>Contact </li>
                 </NavLink>
                 <NavLink to="/reservation">
-                    <li className='reservation' style={{color:'black', background:"#DB9423"}}> Réservation</li>
+                    <li className='reservation'> Réservation</li>
                 </NavLink>
             </ul>
             </nav>

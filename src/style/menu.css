@@ -1,0 +1,11 @@
+.carteMenuRestaurant{
+    display: flex;
+margin: auto ;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+}
+
+.carteMenuRestaurant img{
+    width: 350px;
+}

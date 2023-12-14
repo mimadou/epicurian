@@ -6,10 +6,10 @@ const Header = ({image , titlePage , descriptionPage , slogan , button1 , button
     return (
         <div>
            
-            <div style = {{background:`url(${image}) center/cover`}} className='header_'>
+            <div style = {{background:`url(${image}) center/cover ` }} className='header_'>
              <Navigation/>
                <div className='titleHeader'>
-                  <h3>{slogan}</h3>
+                  <h3>{slogan}</h3> 
                   <h1>{titlePage}</h1>
                   <p>{descriptionPage}</p>
                   
