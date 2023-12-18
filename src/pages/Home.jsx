@@ -4,6 +4,8 @@ import Header from '../components/Header';
 import ImgHome from '../assets/image_header.jpg'
 import { Link } from 'react-router-dom';
 import CarteMenu from '../components/CarteMenu';
+import Chef1 from'../assets/chef_cuisinier1.jpg'
+import Chef2 from '../assets/chef_cuisinier_2.jpg'
 
 
 const Home = () => {
@@ -30,8 +32,11 @@ const Home = () => {
                 </Link>
             </div>
             </div>
-           
+            
              <section className='presentation'>
+                
+                
+                
                 <div className='history'>
                  
                  <div className='textHistory'>
@@ -54,10 +59,24 @@ const Home = () => {
                 </div>
 
              </section>
+               <section className='container1'>
+                <div className='container1_a'> 
+                </div>
+                <div className='container1_b'>
+                  <img src={Chef1} alt=" chef cuisinier" />
+                  <div>
+                    <h2> Epicuricurian Delight</h2>
+                        <p> ouvert du lundi au dimanche </p>
+                        <p> 10 Cours Louis Lumière, 94300, Vincennes</p>
+                  </div>
+                  
+                  <img src={Chef2} alt=" chef cuisinier" />
+                </div>
 
-             <div className='carteMenuHome'>
+            </section>
+            <section className='carteMenuHome'>
                 <CarteMenu/>
-             </div>
+            </section>
             
             
               

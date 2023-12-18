@@ -2,3 +2,25 @@
     padding: 0;
     margin: 0;
 }
+
+.container{
+    position: relative;
+    height: 600px;
+}
+.mySection{
+    position: absolute;
+    height: 600px;
+    background-color: black;
+    z-index: 1;
+    width: 100%;
+    opacity: 0.5;
+}
+.mySection p{
+    color: white;
+}
+.mySection1{
+    position: absolute ;
+    background: url('../assets/image_header_menu.jpg') center/cover fixed;
+    height: 600px;
+    width: 100%;
+}

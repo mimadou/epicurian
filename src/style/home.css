@@ -4,10 +4,14 @@
     padding: 100px;
 }
 .presentation{
+    
     height: 85vh;
     background-color: #F2F2F2;
     padding-top: 10PX;
+    
+   
 }
+
 .history{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -57,4 +61,53 @@
     cursor: pointer;
     color: white;
     transition: 0.8S;
+}
+
+/*container*/
+
+.container1 , .container2{
+    position: relative;
+    height: 50vh;
+}
+
+.container1_a{
+    position: absolute;
+    height: 50vh;
+    width: 100%;
+}
+
+.container1_b{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 0.7;
+    height: 50vh;
+    width: 100%;
+    gap: 20px;
+}
+
+.container1_a{
+    background : url('../assets/background_dessert.jpg') center/cover fixed;
+}
+.container1_b img{
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.container1_b h2{
+    color: #DB9423;
+    font-size: 1.7rem;
+}
+.container1_b p{
+    color: #F2F2F2;
+    text-align: center;
+    padding: 5px;
+}
+
+.containe2{
+
 }
