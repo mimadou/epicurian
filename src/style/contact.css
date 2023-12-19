@@ -1,0 +1,28 @@
+.contact{
+    background-color: #F2F2F2;
+    padding: 50px;
+
+}
+.information{
+    display: flex;
+    flex-direction: column;
+     gap: 100px;
+    text-align: center;
+}
+
+.information p{
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    font-size: 1.4rem;
+}
+.information h2{
+    font-size: 1.8rem;
+}
+
+/*formulaire et carte maps */
+.formMaps{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50vh;
+}

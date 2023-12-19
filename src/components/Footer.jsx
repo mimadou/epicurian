@@ -26,7 +26,7 @@ const Footer = () => {
         <div className='footerPage'>
 
           <div className='footer' > 
-            <div className='contact'>
+            <div className='contact_footer'>
             <div className='imgLogod'>
                 <img src={Logo} alt="" className='imgLogo' />
             </div>
@@ -63,7 +63,7 @@ const Footer = () => {
                 <label htmlFor="">Email</label>
                 <input type="email" required />
 
-                <input type="submit" value= "envoyer" />
+                <input type="submit" value= "S'inscrire" />
             </form>
             <div className="formMessage"> </div>
            

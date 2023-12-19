@@ -1,0 +1,42 @@
+.form-container{
+    height: 100%;
+}
+.form-content{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 12% 12% 12% 12% 40% 12%;
+    margin: auto;
+    padding-top: 20px;
+    gap: 5px;
+    height: 80%;
+    opacity: 0.8;
+   
+}
+
+#hover_button{
+    width: 20%;
+    margin:auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left:5px ;
+    background-color: #DB9423;
+    border-radius: 30px;
+    border: none;
+    padding: px;
+    
+}
+
+#hover_button:hover{
+    cursor: pointer;
+    color: white;
+    transition: 0.7s;
+}
+
+.form-content input , .form-content textarea{
+ width: 100%;
+ margin-top: 5px;
+ font-size: 1.1rem;
+}
+
+
