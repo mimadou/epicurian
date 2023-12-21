@@ -3,6 +3,8 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import ImgContact from '../assets/image_header_contact.jpg'
 import ContactForm from '../components/ContactForm';
+import GoogleApiWrapper  from '../components/CarteMap';
+
 
 const Contact = () => {
     return (
@@ -26,7 +28,7 @@ const Contact = () => {
                     </div>
                     <div className='formMaps'>
                       <div><ContactForm/></div>
-                      <div></div>
+                      <div><GoogleApiWrapper/></div>
                     </div>
 
                     <div>
