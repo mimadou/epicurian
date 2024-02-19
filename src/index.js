@@ -10,6 +10,7 @@ import './style/menu.css'
 import'./style/cartemenu.css'
 import './style/contact.css'
 import './style/contactForm.css'
+import './style/reservation.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

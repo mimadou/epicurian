@@ -12,7 +12,7 @@ const Footer = () => {
             e.preventDefault() ;
             document.querySelector(".form").reset();
             const formMess = document.querySelector(".formMessage");
-            formMess.innerHTML = "<p> vous allez recevoir toutes les actualités par mail</p>";
+            formMess.innerHTML = "<p> vous aller recevoir toutes les actualités par mail</p>";
              
             setTimeout(() => {
                 formMess.innerHTML = "";
