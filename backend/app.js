@@ -3,11 +3,15 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 const app = express();
 
+const noticeRoutes = require('./routes/notice')
+
 mongoose.connect(process.env.MONGODB_URL,
   { useNewUrlParser: true,
     useUnifiedTopology: true })
   .then(() => console.log('Connexion à MongoDB réussie !'))
   .catch(() => console.log('Connexion à MongoDB échouée !'));
+
+  app.use(express.json());
 
 app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
@@ -15,14 +19,7 @@ app.use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, PATCH, OPTIONS');
     next();
   });
-
-app.use((req , res , next)=>{
-    res.json({message : " phase "})
-    next();
-});
-
-app.use((req , res) => {
-    console.log("le restaurant epicurian")
-})
+ 
+app.use(noticeRoutes)
 
 module.exports = app;
