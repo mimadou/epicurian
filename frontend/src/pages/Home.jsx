@@ -6,6 +6,8 @@ import { Link } from 'react-router-dom';
 import CarteMenu from '../components/CarteMenu';
 import Chef1 from'../assets/chef_cuisinier1.jpg'
 import Chef2 from '../assets/chef_cuisinier_2.jpg'
+import Avis from '../components/Avis';
+
 
 
 const Home = () => {
@@ -78,6 +80,9 @@ const Home = () => {
                 <CarteMenu/>
             </section>
             
+            <section className='avis'>
+            <Avis/>
+            </section>
             
               
            <Footer/>

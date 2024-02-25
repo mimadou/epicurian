@@ -1,0 +1,44 @@
+.avis{
+    
+    height: 90VH;
+    background-color: #F2F2F2;
+}
+
+.noticeContainer{
+width: 40%;
+margin: auto;
+}
+
+.noticeContainer h2{
+text-align: center;
+padding: 10px;
+font-size: 1.8rem;
+font-family: 'Courier New', Courier, monospace;
+}
+.noticeContainer textarea{
+    resize: none;
+    border-radius: 5px;
+}
+.commentaire{
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    margin-top: 20px;
+    gap: 10px;
+}
+.formAvis{
+    display: flex;
+}
+
+.inputAvis{
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    margin-left: auto;
+    
+}
+.inputAvis:hover{
+    cursor: pointer;
+}

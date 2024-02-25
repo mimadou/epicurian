@@ -1,0 +1,25 @@
+.card-article{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.card-article p {
+    padding: 10px;
+}
+
+.card-article h3{
+    font-size: 1.7rem;
+}
+
+.card-article em {
+   font-size: 0.9rem;
+   position: absolute;
+   right: 5px;
+   bottom: 2px;
+   
+}
+

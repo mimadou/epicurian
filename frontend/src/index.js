@@ -11,7 +11,8 @@ import'./style/cartemenu.css'
 import './style/contact.css'
 import './style/contactForm.css'
 import './style/reservation.css'
-
+import './style/avis.css'
+import './style/article.css'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
