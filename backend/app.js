@@ -8,6 +8,7 @@ const bodyParser = require('body-parser')
 const app = express();
 
 const noticeRoutes = require('./routes/notice');
+const reservationRoutes = require('./routes/reservation')
 
 mongoose.connect(process.env.MONGODB_URL,
   { useNewUrlParser: true,
@@ -27,6 +28,7 @@ app.use((req, res, next) => {
 });
 
 app.use('/api/notice', noticeRoutes)
+app.use('/api/reservation', reservationRoutes)
 
 
 
