@@ -2,11 +2,14 @@ import React from 'react';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import ImgHome from '../assets/image_header.jpg'
+import ImgHome1 from '../assets/image_header1.png';
 import { Link } from 'react-router-dom';
 import CarteMenu from '../components/CarteMenu';
-import Chef1 from'../assets/chef_cuisinier1.jpg'
-import Chef2 from '../assets/chef_cuisinier_2.jpg'
+import Chef1 from'../assets/chef_cuisinier1.jpg';
+import Chef2 from '../assets/chef_cuisinier_2.jpg';
+import imageHistory from '../assets/image_history.png';
 import Avis from '../components/Avis';
+
 
 
 
@@ -56,7 +59,7 @@ const Home = () => {
                  </div> 
 
                  <div className='imgHistory'>
-                    <img src={ImgHome} alt="" />
+                    <img src={imageHistory} alt="" />
                  </div>
                 </div>
 

@@ -1,3 +1,56 @@
-.bb{
-    height: 50vh;
+.reservationSection{
+    height: 80vh;
 }
+
+.bookingReservation{
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+
+.bookingReservation h2{
+  color: #DB9423;
+}
+
+.formBooking{
+    padding-top: 50px;
+    border: 2px solid #F2F2F2;
+    padding: 50px;
+    height: 50vh;
+    width: 40%;
+    display: grid;
+     grid-template-columns: 1fr  ;
+   
+}
+
+.formBooking input, .formBooking select{
+    width: 100%;
+    font-size: 1.2rem;
+    
+    border: none;
+    border-bottom: 1px solid black;
+    
+}
+
+.date-time{
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    height: 40px;
+    gap: 20px;
+}
+
+.reserverSubmit{
+ background-color: #DB9423;
+ transition: 0.7s;
+}
+
+.reserverSubmit:hover{
+cursor: pointer;
+color: white;
+}
+
+

@@ -62,15 +62,17 @@
 }
 
 .titleHeader h1{
-    font-size: 5rem;
-    color: #DB9423;
+    font-size: 4rem;
+    color: white;
     text-align: center;
+    text-shadow: 1px 1px 2px black;
     
 }
 .titleHeader h3, .titleHeader p{
     text-align: center;
-    font-size: 1.4rem;
-    color: aliceblue;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 1px 1px 2px black;
 }
 .titleHeader p{
     margin-top: 30px;
@@ -92,12 +94,12 @@
     
 }
 .buttonHeader button{
-    background-color: rgba(0, 0, 0, 0);
+    background-color:#DB9423;
     padding: 10PX;
     border-radius: 10PX;
     width: 120PX;
     font-size: 1.1rem;
-    border: 2px solid #DB9423;
+    border: 4px solid #DB9423;
     color: white;
 }
 
