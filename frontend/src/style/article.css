@@ -5,15 +5,22 @@
     border: 1px solid black;
     padding: 10px;
     border-radius: 10px;
+    overflow: hidden;
+    height: 80PX;
+    word-wrap: break-word;
    
+    
 
 }
 .card-article p {
     padding: 10px;
+    font-family: "font-1";
+    
 }
 
 .card-article h3{
-    font-size: 1.7rem;
+    font-size: 1.1rem;
+    font-family: "font-1";
 }
 
 .card-article em {
@@ -21,6 +28,7 @@
    position: absolute;
    right: 5px;
    bottom: 2px;
+   
    
 }
 

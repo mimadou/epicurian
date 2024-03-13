@@ -1,6 +1,6 @@
 
 import SocialNetwork from './SocialNetwork';
-import Logo from "../assets/logo_epicurium.png"
+
 
 
 
@@ -26,13 +26,10 @@ const Footer = () => {
         <div className='footerPage'>
 
           <div className='footer' > 
-            <div className='contact_footer'>
-            <div className='imgLogod'>
-                <img src={Logo} alt="" className='imgLogo' />
-            </div>
+            <div className='adressOpening'> 
+            <h2> Epicurian delight </h2>
             
-
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio maiores veniam cumque, autem deserunt laudantium nostrum. Nam accusamus voluptate itaque ducimus quae porro. Quod eveniet mollitia ullam cum repellat molestiae!</p>  
+            <p style={{width :"80%", fontFamily: "font-1"}}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio maiores veniam cumque, autem deserunt laudantium nostrum. Nam accusamus voluptate itaque ducimus quae porro. Quod eveniet mollitia ullam cum repellat molestiae!</p>  
             </div>
 
             <div className='adressOpening'>

@@ -13,7 +13,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-template-rows: 250px ;
     width: 100%;
-    color: aliceblue;
+    color: white;
 
 }
 
@@ -21,11 +21,24 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
+    
+}
+
+.adressOpening h2 {
+    padding-bottom: 10px;
+    font-family: "font-1";
 }
 .adressOpening li{
     list-style: none;
+    font-family: "font-1";
 }
 
+
+
+.newsletter h2 , .newsletter p{
+    padding-bottom: 10px;
+    font-family: "font-1";
+}
 form{
     display: flex;
     flex-direction: column;

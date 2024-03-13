@@ -20,7 +20,7 @@
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left:5px ;
-    background-color: #DB9423;
+    background-color: var(--color-1);
     border-radius: 30px;
     border: none;
     padding: px;

@@ -46,7 +46,7 @@ const ContactForm = () => {
       <form ref={form} onSubmit={sendEmail} className="form-content">
 
         <input type="text" name="name" required autoComplete="off" id="name" placeholder= "Nom" />
-        <input type="text" name="Prénom" required autoComplete="off" id="name" placeholder= "Prénom" />
+        <input type="text" name="prenom" required autoComplete="off" id="prenom" placeholder= "Prénom" />
        
         <input
           type="email"

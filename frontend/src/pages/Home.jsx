@@ -2,7 +2,6 @@ import React from 'react';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import ImgHome from '../assets/image_header.jpg'
-import ImgHome1 from '../assets/image_header1.png';
 import { Link } from 'react-router-dom';
 import CarteMenu from '../components/CarteMenu';
 import Chef1 from'../assets/chef_cuisinier1.jpg';
@@ -25,7 +24,7 @@ const Home = () => {
         <div>
             <div className='headerHome' >
             <Header image={ImgHome} titlePage = "Epicurian Delight" 
-            descriptionPage="Une cuisine gourmande à tendance gastronomique et moderne." 
+            descriptionPage="Une cuisine gourmande à tendance gastronomique " 
             slogan="Restaurant au centre de Paris"/>
 
              <div className='buttonHeader'>
@@ -70,7 +69,7 @@ const Home = () => {
                 <div className='container1_b'>
                   <img src={Chef1} alt=" chef cuisinier" />
                   <div>
-                    <h2> Epicuricurian Delight</h2>
+                    <h2> Epicuririan Delight</h2>
                         <p> ouvert du lundi au dimanche </p>
                         <p> 10 Cours Louis Lumière, 94300, Vincennes</p>
                   </div>

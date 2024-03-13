@@ -6,7 +6,7 @@
 .presentation{
     
     height: 85vh;
-    background-color: #F2F2F2;
+    background-color: var(--color-2);
     padding-top: 10PX;
     
    
@@ -38,19 +38,21 @@
     width: 90%;
 }
 .textHistory h2 , .textHistory h3{
-    color: #DB9423;
+    color: var(--color-1);
+    font-family: "font-1";
 }
 
 .textHistory p {
     font-size: 1.1rem;
     padding-top: 40px;
+    font-family: "font-1";
 }
 
 .reservationHistory{
     padding: 8px;
     border-radius: 10px;
     color:'black';
-    background-color: #DB9423;
+    background-color: var(--color-1);
     font-size: 1.2rem;
     border: none;
     width: 150px;
@@ -68,6 +70,7 @@
 .container1 , .container2{
     position: relative;
     height: 50vh;
+    
 }
 
 .container1_a{
@@ -99,16 +102,17 @@
 }
 
 .container1_b h2{
-    color: #DB9423;
+    color: var(--color-1);
     font-size: 1.7rem;
+    text-align: center;
+    font-family: "font-1";
 }
 .container1_b p{
-    color: #F2F2F2;
+    color: var(--color-2);
     text-align: center;
     padding: 5px;
+    font-family: "font-1";
 }
 
-.containe2{
 
-}
 

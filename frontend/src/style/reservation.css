@@ -1,5 +1,5 @@
 .reservationSection{
-    height: 80vh;
+    height: 100vh;
 }
 
 .bookingReservation{
@@ -12,8 +12,9 @@
     
 }
 
+
 .bookingReservation h2{
-  color: #DB9423;
+  color: var(--color-1);
 }
 
 .formBooking{
@@ -44,8 +45,9 @@
 }
 
 .reserverSubmit{
- background-color: #DB9423;
+ background-color: var(--color-1);
  transition: 0.7s;
+ 
 }
 
 .reserverSubmit:hover{

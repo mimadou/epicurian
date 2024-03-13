@@ -1,5 +1,5 @@
 .contact{
-    background-color: #F2F2F2;
+    background-color: var(--color-2);
     padding: 50px;
 
 }
@@ -8,6 +8,7 @@
     flex-direction: column;
      gap: 100px;
     text-align: center;
+    font-family: "font-1";
 }
 
 .information p{
@@ -15,9 +16,23 @@
     margin: auto;
     padding: 20px;
     font-size: 1.4rem;
+    
 }
 .information h2{
     font-size: 1.8rem;
+}
+
+.adressContact ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 15px;
+    font-family: "font-1";
+    font-size: 1.4rem;
+}
+.adressContact li {
+ list-style: none;
 }
 
 /*formulaire et carte maps */

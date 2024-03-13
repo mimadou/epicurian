@@ -117,7 +117,7 @@ const ReservationForm = () => {
                 </div>
 
                 <div>
-                    <input type="submit" value=" Reservez votre table " className='reserverSubmit' />
+                    <input type="submit" value=" Reservez  " className='reserverSubmit' />
                 </div>
 
 

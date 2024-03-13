@@ -9,6 +9,7 @@ const Avis = () => {
     const [author , setAuthor] = useState ("")
     const [notice , setNotice] = useState([])
     
+    
 
 
         const getData =() =>{
@@ -54,16 +55,19 @@ const Avis = () => {
                 placeholder='Nom Prénom'
                 onChange={(e) => setAuthor(e.target.value)}
                 value={author}
+                required
                 
                 />
 
                 <textarea name=""
                 id="" 
                 cols="30" 
-                rows="10"
+                rows="4"
+                maxlength="120"
                 placeholder='votre avis '
                 onChange={(e) => setContent(e.target.value)}
                 value={content}
+                required
                 
                 >
                     
@@ -74,7 +78,7 @@ const Avis = () => {
             <ul className='commentaire'>
                {notice
         
-                .slice(0,5)
+               .slice(0,4)
                .map(article =>(
                 <Article key={article._id} article={article}/>
                ))

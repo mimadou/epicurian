@@ -22,9 +22,13 @@ const Contact = () => {
                       <h2> Pour réserver ou des informations </h2>
                       <p> 01 49 57 59 59 </p>
                     </div>
-                    <div>
-                      <h2> Un feedback?</h2>
-                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat obcaecati maiores hic quos omnis doloribus, rem te</p>
+                    <div className='adressContact'>
+                      <h2> Adresse </h2>
+                         <ul>
+                          <li>10 Cours Louis Lumière, 94300, Vincennes</li>
+                          <li>01 49 57 59 59</li>
+                          <li>contact@epicurian_delight.com</li>
+                         </ul>
                     </div>
                     <div className='formMaps'>
                       <div><ContactForm/></div>

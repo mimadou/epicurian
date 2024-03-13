@@ -1,7 +1,7 @@
 .avis{
+    height: 100vh;
     
-    height: 120vh ;
-    background-color: #F2F2F2;
+    background-color: var(--color-2);
 }
 
 .noticeContainer{
@@ -13,7 +13,8 @@ margin: auto;
 text-align: center;
 padding: 10px;
 font-size: 1.8rem;
-font-family: 'Courier New', Courier, monospace;
+font-family: "font-1";
+color:var(--color-1) ;
 }
 .noticeContainer textarea{
     resize: none;
@@ -30,6 +31,10 @@ font-family: 'Courier New', Courier, monospace;
     display: flex;
 }
 
+.formAvis input , .formAvis textarea {
+    font-size: 1.1rem;
+}
+
 .inputAvis{
     color: white;
     background-color: black;
@@ -37,6 +42,7 @@ font-family: 'Courier New', Courier, monospace;
     font-size: 1.1rem;
     border-radius: 20px;
     margin-left: auto;
+    font-family: "font-1";
     
 }
 .inputAvis:hover{
