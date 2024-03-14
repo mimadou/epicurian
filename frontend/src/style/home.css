@@ -3,6 +3,7 @@
 .carteMenuHome{
     padding: 100px;
 }
+
 .presentation{
     
     height: 85vh;
@@ -64,6 +65,38 @@
     color: white;
     transition: 0.8S;
 }
+
+@media (max-width: 877px) {
+
+    .presentation{
+        height: 100vh;
+
+    }
+    .history{
+        display: block;
+        width: 90%;
+    }
+    .textHistory{
+        display: block;
+        height: 50%;
+        width: 100%;
+    }
+    
+    .reservationHistory{
+        margin-top: 20px; 
+        
+    }
+
+    .imgHistory {
+        height: 60%;
+    }
+   
+
+    .textHistory p{
+        padding-top: 20PX;
+    }
+}
+
 
 /*container*/
 

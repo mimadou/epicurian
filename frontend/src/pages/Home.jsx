@@ -58,7 +58,7 @@ const Home = () => {
                  </div> 
 
                  <div className='imgHistory'>
-                    <img src={imageHistory} alt="" />
+                    <img src={imageHistory} alt="Entrée restaurant" />
                  </div>
                 </div>
 
