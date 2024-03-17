@@ -9,14 +9,14 @@ const CarteMenu = () => {
     console.log(cartes)
 
     return (
-        <div>
+        
             <ul className='carte'>
               {cartes.map((carte , index) =>(
               <Card key={index} carte={carte} />
               ))}
             </ul>
             
-        </div>
+       
     );
 };
 

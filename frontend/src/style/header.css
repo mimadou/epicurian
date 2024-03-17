@@ -67,8 +67,10 @@
 }
 
 .headerHome{
+    
     position: relative;
     height: 100vh;
+   
 }
 
 .buttonHeader{
@@ -79,6 +81,7 @@
     position: relative;
     margin: auto;
     bottom: 15%;
+    
     
 }
 .buttonHeader button{
@@ -106,7 +109,7 @@
 
 @media (max-width: 877px) {
     .titleHeader{
-        padding-top: 50%;
+        padding-top: 70%;
         width: 50%;
     }
 
@@ -117,5 +120,14 @@
 
     .titleHeader h3 , .titleHeader p {
         font-size: 1.1rem;
+    }
+
+    .buttonHeader{
+        width: 200px;
+        
+    }
+    .buttonHeader button{
+        font-size: 0.8rem;
+        padding: 8px;
     }
 }

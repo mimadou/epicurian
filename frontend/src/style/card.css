@@ -5,4 +5,10 @@
 
 .card p {
     font-family:"font-1" ;
+    padding-top: 10px;
+}
+
+.card img{
+   border-radius: 10px;
+   
 }

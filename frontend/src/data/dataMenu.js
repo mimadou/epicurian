@@ -20,7 +20,7 @@ export const dataMenu = [
       img: "./image_menu/Burger_Vgtarien.jpg", 
     },
     {
-      name: "Sole Meunière aux Amandes Dorées",
+      name: "Sole Meunière aux Amandes ",
       description: "    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam corporis iure magni inventore, itaque ducimus deserunt Eligendi, reiciendis ",
       img: "./image_menu/Sole_Meunire_aux_Amandes_Dores.jpg", 
     },

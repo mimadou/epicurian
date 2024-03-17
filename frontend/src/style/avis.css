@@ -33,6 +33,7 @@ color:var(--color-1) ;
 
 .formAvis input , .formAvis textarea {
     font-size: 1.1rem;
+    border-radius: 5px;
 }
 
 .inputAvis{
@@ -43,6 +44,7 @@ color:var(--color-1) ;
     border-radius: 20px;
     margin-left: auto;
     font-family: "font-1";
+    padding: 5px;
     
 }
 .inputAvis:hover{

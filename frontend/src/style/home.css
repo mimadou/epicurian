@@ -1,12 +1,10 @@
 /* section presentation */
 
-.carteMenuHome{
-    padding: 100px;
-}
+
 
 .presentation{
     
-    height: 85vh;
+    height: 100vh;
     background-color: var(--color-2);
     padding-top: 10PX;
     
@@ -17,9 +15,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: auto;
-    width: 60%;
+    width: 70%;
     height: 90vh; 
-    padding-top: 50px; 
+    padding-top: 100px;
+   
 }
 
 .imgHistory img{
@@ -32,20 +31,25 @@
 .textHistory{
     display: flex;
     flex-direction: column;
-   
+    padding-top: 30px;
     gap: 20px;
     text-align: center;
-    height: 600px;
+    height: 80%;
     width: 90%;
 }
 .textHistory h2 , .textHistory h3{
     color: var(--color-1);
     font-family: "font-1";
+    font-size: 1.4rem;
+}
+
+.textHistory h2{
+    font-size: 2.8rem;
 }
 
 .textHistory p {
-    font-size: 1.1rem;
-    padding-top: 40px;
+    font-size: 1.2rem;
+    padding-top: 70px;
     font-family: "font-1";
 }
 
@@ -75,6 +79,7 @@
     .history{
         display: block;
         width: 90%;
+        padding-top: 30px;
     }
     .textHistory{
         display: block;
@@ -94,13 +99,18 @@
 
     .textHistory p{
         padding-top: 20PX;
+        font-size: 0.9rem;
+    }
+    
+    .textHistory h2{
+        font-size: 1.9rem;
     }
 }
 
 
 /*container*/
 
-.container1 , .container2{
+.container1 {
     position: relative;
     height: 50vh;
     
@@ -110,11 +120,11 @@
     position: absolute;
     height: 50vh;
     width: 100%;
+    background : url('../assets/background_dessert.jpg') center/cover fixed;
 }
 
 .container1_b{
     display: flex;
-    
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -125,9 +135,7 @@
     gap: 20px;
 }
 
-.container1_a{
-    background : url('../assets/background_dessert.jpg') center/cover fixed;
-}
+
 .container1_b img{
     border-radius: 20px;
     width: 200px;
@@ -146,6 +154,28 @@
     padding: 5px;
     font-family: "font-1";
 }
+
+@media (max-width: 877px) {
+    .container1_b{
+        display: flex;
+        flex-direction: column;
+      
+        
+    }
+
+    .container1_b img{
+        width: 140px;
+        height: 140px;
+       
+    }
+
+    .container1_b h2{
+        font-size: 1.4rem;
+    }
+    .container1_b p{
+        font-size: 0.8rem;
+    }
+}  
 
 
 

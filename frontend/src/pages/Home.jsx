@@ -21,13 +21,16 @@ const Home = () => {
 
 
     return (
-        <div>
-            <div className='headerHome' >
+        <div> 
+        <div className='headerHome'>
+        <div  >
             <Header image={ImgHome} titlePage = "Epicurian Delight" 
             descriptionPage="Une cuisine gourmande à tendance gastronomique " 
             slogan="Restaurant au centre de Paris"/>
 
-             <div className='buttonHeader'>
+            </div>
+
+            <div className='buttonHeader'>
                 <Link to="/menu">
                     <button>Menu</button>
                 </Link>
@@ -35,7 +38,8 @@ const Home = () => {
                     <button>Reservation</button>
                 </Link>
             </div>
-            </div>
+        </div>
+            
             
              <section className='presentation'>
                 
@@ -46,11 +50,11 @@ const Home = () => {
                  <div className='textHistory'>
                     <h2> Epicurian Délight </h2>
                     <h3> A propos de nous </h3>
-
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam ratione quis tempore commodi praesentium consectetur iste cupiditate tempora sapiente molestias, pariatur exercitationem temporibus vitae necessitatibus! Cumque   </p>
+                     <div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam ratione quis tempore commodi praesentium consec tetur iste cupiditate tempora sapiente molestias, pariatur exercitationem temporibus vitae necessitatibus! Cumque   </p>
 
                     <p> utem commodi! Minus iusto distinctio accusantium veniam aliquid earum repudiandae aliquam, quod sequi, cumque suscipit nam placeat incidunt obcaecati illo assumenda blanditiis voluptate ea. Corrupti facere harum at illo consectetur </p>
-
+                     </div>
                     
                        <button className='reservationHistory' onClick={navigateToReservation} > Réservation</button>
                    

@@ -23,6 +23,10 @@
     gap: 5px;
     
 }
+.adressOpening p{
+    width: 80%;
+    font-family: "font-1"
+}
 
 .adressOpening h2 {
     padding-bottom: 10px;
@@ -65,19 +69,68 @@ input[type="email"]{
     align-items: center;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 877px) {
 
   .footerPage{
     display: flex;
     gap: 100PX;
     width: 100%;
-    height: 100VH;
-   
+    padding-left: 0%;
+    padding-right: 0%;
+    height: 100vh;
   }
   .footer{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70%;
     text-align: center;
-    
+    padding-left: 30px;
+    padding-right: 30px;
+
+  }
+
+  .adressOpening p{
+   width: 90%;
+   margin: auto;
+   
   }
         
+}
+
+.socialNetwork{
+    display: flex;
+    justify-content: center;
+    
+    
+    gap: 100px;
+    width: 400px;
+    height: 50px;
+}
+
+.socialNetwork li{
+    list-style: none;
+    font-size: 3rem;
+    color: aliceblue;
+}
+
+@media screen and (max-width: 950px) {
+    .socialNetwork{
+        display: flex;
+        font-size: 2rem;
+        justify-content: center;
+        width: 100%;
+       
+    }
+
+    .newsletter{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .socialNetwork{
+        width: 380PX;
+        gap: 30px;
+    }
 }

@@ -1,3 +1,6 @@
+.carteMenuHome{
+  padding: 100px;
+}
 .cartemenu{
     padding: 100px;
     background-color: var(--color-2);
@@ -28,6 +31,29 @@
      width: 75%;
      margin: auto;
      justify-content: space-between;
-   gap: 15px;
+     gap: 15px;
  }
  
+ @media (max-width: 877px) {
+  
+  .carteMenuHome{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .carte{
+    display: block;
+    width: 100%;
+   
+  }
+  
+  .card{
+    width: 100%;
+    margin-top: 20px;
+  }
+ 
+  .card img{
+    width: 100%;
+
+  }
+
+ }

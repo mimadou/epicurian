@@ -15,6 +15,7 @@
 
 .bookingReservation h2{
   color: var(--color-1);
+  font-family: "font-1";
 }
 
 .formBooking{
@@ -47,6 +48,8 @@
 .reserverSubmit{
  background-color: var(--color-1);
  transition: 0.7s;
+ padding: 5px;
+ font-family: "font-1";
  
 }
 

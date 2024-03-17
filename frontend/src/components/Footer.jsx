@@ -29,7 +29,7 @@ const Footer = () => {
             <div className='adressOpening'> 
             <h2> Epicurian delight </h2>
             
-            <p style={{width :"80%", fontFamily: "font-1"}}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio maiores veniam cumque, autem deserunt laudantium nostrum. Nam accusamus voluptate itaque ducimus quae porro. Quod eveniet mollitia ullam cum repellat molestiae!</p>  
+            <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio maiores veniam cumque, autem deserunt laudantium nostrum. Nam accusamus voluptate itaque ducimus quae porro. Quod eveniet mollitia ullam cum repellat molestiae!</p>  
             </div>
 
             <div className='adressOpening'>
