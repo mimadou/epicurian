@@ -23,7 +23,7 @@
     background-color: var(--color-1);
     border-radius: 30px;
     border: none;
-    padding: px;
+    padding: 10px;
     
 }
 
@@ -39,4 +39,12 @@
  font-size: 1.1rem;
 }
 
+@media (max-width: 877px) {
+    #hover_button{
+        width: 100%;
+    }
 
+    .form-content{
+         width: 90%;
+    }
+}

@@ -1,3 +1,45 @@
+.navbar{
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    
+    height: 90px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.epicurianLogo{
+    width: 80px;
+    height: 90%;
+    border-radius: 15px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.navigation li {
+    list-style: none; 
+    color: black; 
+}
+.navigation li:hover{
+    color: var(--color-1);
+}
+.navigation a {
+    text-decoration: none;
+
+}
+
+
+
+.navigation .reservation:hover{
+ color: black;
+}
+
 .navigation {
     display: flex;
     flex-direction: row;
@@ -8,29 +50,20 @@
     font-size: 1.4rem;
     font-family: "font-1";
     
+    
 }
 
-.menu-responsive{
-    display: none;
-}
-.menu-responsive .navbar{
-   display: block;
-}
 
-.navigation.open{
-    display: flex;
-    flex-direction: column;
-    height: 200px;
-    padding-top: 0;
-    align-items: center;
-}
+
+
+
 
 .menu-toggle{
     display: none;
     height: 30px;
     width: 40px;
     justify-content: space-between;
-    position: absolute;
+    position: fixed;
     left: 10PX;
     top: 10PX;
     
@@ -42,7 +75,7 @@
 .menuBar{
     height: 5px;
     width: 40px;
-    background-color: white;
+    background-color: var(--color-1);
     z-index: 5;
 }
 
@@ -66,25 +99,21 @@
 
 @media (max-width: 877px) {
     
-    .menu-non-responsive{
-        display: none;
-    }
-
-    .menu-responsive {
-        display: block;
-        position: fixed;
-        width: 100%;
-        z-index: 5;
-    }
 
     .menu-toggle{
         display: flex;
+        position: fixed;
         flex-direction: column;
+        position: absolute;
 
     }
 
     .navigation{
-        display: none;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        
+        background-color: white;
     }
 
     .reservation{
@@ -100,4 +129,39 @@
         color: var(--color-1);
     }
     
+    .navbar{
+        display: block;
+        opacity: 1;
+       
+        
+        height: 200px;
+        width: 100%;
+        padding: 0%;
+        z-index: 3;
+    }
+
+    .navbar_logo{
+        display: none;
+    }
+   
+    .navigation.open{
+        display: none;
+    }
+
+    .navigation.open{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        padding-top: 0;
+        align-items: center;
+        background-color: white;
+        
+    }
+    .navbar.open{
+        display: none;
+    }    
+
+    .logo{
+        display: none;
+    }
   }

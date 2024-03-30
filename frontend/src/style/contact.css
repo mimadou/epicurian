@@ -35,9 +35,41 @@
  list-style: none;
 }
 
+
 /*formulaire et carte maps */
 .formMaps{
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 50vh;
+}
+
+@media (max-width: 877px) {
+    .contact{
+        padding: 100px 0 ;
+        
+    }
+    
+    .information{
+        width: 100%;
+    }
+    .information h2{
+    font-size: 1.8rem;
+    }
+
+    .information p{
+        font-size: 1.2rem;
+        width: 80%;
+    }
+
+    .formMaps{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 50% 40%;
+        height: 100vh;
+        gap: 5%;
+    
+        
+    }
+
+    
 }

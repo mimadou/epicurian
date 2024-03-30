@@ -1,6 +1,5 @@
 .avis{
     height: 100vh;
-    
     background-color: var(--color-2);
 }
 
@@ -49,4 +48,17 @@ color:var(--color-1) ;
 }
 .inputAvis:hover{
     cursor: pointer;
+}
+
+@media (max-width: 877px) {
+    .noticeContainer{
+       width: 90%;
+       padding-top: 50PX;
+       display: flex;
+       flex-direction: column;
+       gap: 30PX;
+    }
+    .avis{
+        height: 120vh;
+    }
 }

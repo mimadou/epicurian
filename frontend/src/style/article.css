@@ -32,3 +32,9 @@
    
 }
 
+@media (max-width: 877px) {
+    .card-article{
+        height: 110px;
+    }
+}
+

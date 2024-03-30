@@ -32,7 +32,7 @@ const Contact = () => {
                     </div>
                     <div className='formMaps'>
                       <div><ContactForm/></div>
-                      <div><GoogleApiWrapper/></div>
+                      <div className='containerMaps'><GoogleApiWrapper/></div>
                     </div>
 
                     <div>

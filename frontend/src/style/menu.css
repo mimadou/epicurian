@@ -1,5 +1,12 @@
-.carteMenuRestaurant{
+.cartemenu{
+    padding: 100px;
+    background-color: var(--color-2);
     display: flex;
+    flex-direction: column;
+    gap: 150px;
+ }
+.carteMenuRestaurant{
+display: flex;
 margin: auto ;
 flex-wrap: wrap;
 justify-content: center;
@@ -8,4 +15,23 @@ gap: 20px;
 
 .carteMenuRestaurant img{
     width: 350px;
+}
+
+@media (max-width: 877px) {
+
+ .cartemenu{
+    padding-left: 10PX;
+    padding-right: 10PX;
+    width: 100%;
+    
+    }
+ .carteMenuRestaurant{
+    display: block;
+    width: 100%;
+    margin: auto;
+ }
+ .carteMenuRestaurant img{
+    width: 100%;
+    margin-top: 30PX;
+}
 }

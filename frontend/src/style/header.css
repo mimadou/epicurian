@@ -1,36 +1,9 @@
 .header_{
     background: center/cover;
     height: 100vh;
+ 
     
     
-}
-.navbar{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: white;
-}
-.navbar_logo{
-    padding: 30px;
-}
-
-
-
-.navigation li {
-    list-style: none; 
-    color: black; 
-}
-.navigation li:hover{
-    color: var(--color-1);
-}
-.navigation a {
-    text-decoration: none;
-
-}
-
-
-
-.navigation .reservation:hover{
- color: black;
 }
 
 
@@ -43,8 +16,9 @@
     align-items: center;
     justify-content: center;
     width: 40%;
+    
     margin: auto;
-    padding-top: 15%;
+    padding-top: 20%;
 }
 
 
@@ -108,9 +82,20 @@
 
 
 @media (max-width: 877px) {
+    .headerTitle{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
     .titleHeader{
-        padding-top: 70%;
-        width: 50%;
+        top: 30%;
+        width: 70%;
+       
+        transform: 'translateX(-50%, -50%)';
+        position: absolute;
+        
+       
     }
 
     .titleHeader h1{
@@ -119,7 +104,7 @@
     }
 
     .titleHeader h3 , .titleHeader p {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
     .buttonHeader{
@@ -129,5 +114,9 @@
     .buttonHeader button{
         font-size: 0.8rem;
         padding: 8px;
+    }
+
+    .header_{
+        position: relative;
     }
 }
